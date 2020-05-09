@@ -23,7 +23,7 @@ Features of the board:
   + 6 end stops 
   + micro-sd card support with SDIO for fast file transfer
   + ports - serial, USB, I2C and 2x SPI
-  + FSMC 16bit TFT port with SPI touch or RAMPS LCD screen support
+  + FSMC 16bit TFT port with SPI touch high resolution graphics display  or RAMPS standard 2 flat cable LCD screen support
   + Marlin 2.05 firmware 
   + Input voltage: 12-24V
   
