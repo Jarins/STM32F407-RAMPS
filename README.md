@@ -3,7 +3,7 @@
 
 for example from aliexpress [here](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200509043338&SearchText=stm32f407Zet6+development+board)
 
-__Work-in-progress. Use with caution!__
+__Work-in-progress. Caution! Not for any use yet __
 
 The project is just starting. Other files will follow.
 KiCAD files so far only without libraries.
