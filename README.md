@@ -24,8 +24,9 @@ Features of the RAMPS board:
   + micro-sd card support with SDIO for fast file transfer
   + ports - serial, USB, I2C and 2x SPI
   + FSMC 16bit TFT port with SPI touch high resolution graphics display  or RAMPS standard 2 flat cable LCD screen support
-  + Marlin 2.05 firmware 
   + Input voltage: 12-24V
+  + On the STM32F407 board used 16Mbit(2MB) flash for EEPROM emulation.
+  + Marlin 2.05 firmware support FSMC paralel 16 bit TFT display with Touch. 
   
 ![Picture from KiCad Rendering](Images/RAMPS_STM32F407_TFT_Touch1.png)
 ![Picture from KiCad Rendering](Images/RAMPS_STM32F407_TFT_Touch2.png)
