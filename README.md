@@ -15,11 +15,11 @@ Features of the board:
 -----
   + up to 5x replaceable stepper motor drivers 
   + up to 4 thermistors or 4 thermocouples for temperature control
-  + 3 power heaters (1 bed and up to 2 extruder heaters) with PWM power control up to 30A (limited by the connector used and the width of the PCB)
+  + 3 power heaters (1 bed and up to 2 extruder heaters) with PWM power control up to 30A (llimited by the connector used and the width of the cooper on the PCB)
   + 4 high power PWM connectors with selectable voltage for fans, LEDs or DC motors
     - 5V up to 3A in total for all outputs
     - 12V up to 3A in total for all outputs
-    - VIN(24V) up to 20A each individually (limited by the connector used and the width of the PCB)
+    - VIN(24V) up to 20A each individually (limited by the connector used and the width of the cooper on the PCB)
   + 6 end stops 
   + micro-sd card support with SDIO for fast file transfer
   + ports - serial, USB, I2C and 2x SPI
