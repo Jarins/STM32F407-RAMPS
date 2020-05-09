@@ -1,7 +1,8 @@
 # RAMPS for STM32F407ZET6 and STM32F407ZGT6 development board Black edition from China
 ![Picture from KiCad Rendering](Images/Stm32f407zet6-F407zgt6.jpg)
 
-for example from aliexpress [here](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200509043338&SearchText=stm32f407Zet6+development+board)
+for example from aliexpress [e.g. here](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200509043338&SearchText=stm32f407Zet6+development+board)
+with original TFT display 3.2 inch 320x240 wis Touch panel [e.g. here](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200509115015&origin=y&SearchText=3.2+TFT+for+STM32F407VET6)
 
 __Work-in-progress. Caution! Not for any use yet__
 
@@ -23,7 +24,7 @@ Features of the RAMPS board:
   + 6 end stops 
   + micro-sd card support with SDIO for fast file transfer
   + ports - serial, USB, I2C and 2x SPI
-  + FSMC 16bit TFT port with SPI touch high resolution graphics display  or RAMPS standard 2 flat cable LCD screen support
+  + FSMC 16bit TFT port with SPI touch [high resolution graphics display](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200509115015&origin=y&SearchText=3.2+TFT+for+STM32F407VET6)  or RAMPS standard 2 flat cable LCD screen support
   + Input voltage: 12-24V
   + On the STM32F407 board used 16Mbit(2MB) flash for EEPROM emulation.
   + Marlin 2.05 firmware support FSMC paralel 16 bit TFT display with Touch. 
