@@ -9,6 +9,8 @@ At this time, the exact dimensions of the CPU
 board connectors are not yet accurate
 
 ![Picture from KiCad Rendering](Images/RAMPS_STM32F407_TFT_Touch.png)
+![Picture from KiCad Rendering](Images/RAMPS_STM32F407_TFT_Touch1.png)
+![Picture from KiCad Rendering](Images/RAMPS_STM32F407_TFT_Touch2.png)
 
 See you
 
