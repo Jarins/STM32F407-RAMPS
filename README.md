@@ -2,7 +2,7 @@
 ![Picture from KiCad Rendering](Images/Stm32f407zet6-F407zgt6.jpg)
 
 for example from aliexpress [e.g. here](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200509043338&SearchText=stm32f407Zet6+development+board)
-with original TFT display 3.2 inch 320x240 wis Touch panel [e.g. here](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200509115015&origin=y&SearchText=3.2+TFT+for+STM32F407VET6)
+with original TFT display 3.2 inch 320x240 with Touch panel [e.g. here](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200509115015&origin=y&SearchText=3.2+TFT+for+STM32F407VET6)
 
 __Work-in-progress. Caution! Not for any use yet__
 
