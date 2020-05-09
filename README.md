@@ -11,7 +11,7 @@ board connectors are not yet accurate
 
 ![Picture from KiCad Rendering](Images/RAMPS_STM32F407_TFT_Touch.png)
 
-Features of the board:
+Features of the RAMPS board:
 -----
   + up to 5x replaceable stepper motor drivers 
   + up to 4 thermistors or 4 thermocouples for temperature control
