@@ -36,6 +36,6 @@ Features of the RAMPS board:
 ![Picture from KiCad Rendering](Images/RAMPS_STM32F407_TFT_Touch1.png)
 ![Picture from KiCad Rendering](Images/RAMPS_STM32F407_TFT_Touch2.png)
 
-See you
+
 
 
