@@ -21,6 +21,7 @@ Features of the RAMPS board:
     - 5V up to 3A in total for all outputs
     - 12V up to 3A in total for all outputs
     - VIN(24V) up to 20A each individually (limited by the connector used and the width of the cooper on the PCB)
+  + 2 PWM Servos outputs
   + 6 end stops 
   + micro-sd card support with SDIO for fast file transfer
   + ports - serial, USB, I2C and 2x SPI
