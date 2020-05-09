@@ -6,7 +6,6 @@ for example from aliexpress [here](https://www.aliexpress.com/wholesale?catId=0&
 __Work-in-progress. Caution! Not for any use yet__
 
 The project is just starting. Other files will follow.
-KiCAD files so far only without libraries.
 At this time, the exact dimensions of the CPU 
 board connectors are not yet accurate
 
