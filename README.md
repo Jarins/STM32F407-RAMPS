@@ -1,5 +1,5 @@
-# STM32F407
-RAMPS for STM32F407F_G Black edition
+# RAMPS for STM32F407ZET6 and STM32F407ZGT6 development board Black edition
+![Picture from KiCad Rendering](Images/Stm32f407zet6-F407zgt6.jpg)
 
 __Work-in-progress. Use with caution!__
 
