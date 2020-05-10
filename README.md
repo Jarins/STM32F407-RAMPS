@@ -33,7 +33,6 @@ Features of the RAMPS board:
   
   + Low cost and small board dimensions 110 x 84mm (At [JLCPCB](https://jlcpcb.com/) only $7 for 5 pieces + $7 postage = $2.8 / piece) 
   
-![Picture from KiCad Rendering](Images/RAMPS_STM32F407_TFT_Touch1.png)
 ![Picture from KiCad Rendering](Images/RAMPS_STM32F407_TFT_Touch2.png)
 
 
