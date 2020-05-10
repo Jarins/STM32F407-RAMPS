@@ -7,8 +7,9 @@ with pins directly compatible with original TFT display 3.2 inch 320x240 with To
 __Work-in-progress. Caution! Not for any use yet__
 
 The project is just starting. Other files will follow.
-At this time, the exact dimensions of the CPU 
-board connectors are not yet accurate
+
+Currently, the location of the CPU board connectors is not yet accurate.
+I'm waiting for a CPU delivery from China.
 
 ![Picture from KiCad Rendering](Images/RAMPS_STM32F407_TFT_Touch.png)
 
