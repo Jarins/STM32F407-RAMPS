@@ -1,10 +1,10 @@
 (module Jarin's:2410_FuseFolder (layer F.Cu) (tedit 5EB7E10C)
   (attr smd)
-  (fp_text reference F1 (at 7.239 -0.0635) (layer F.SilkS) hide
+  (fp_text reference F3 (at 7.112 -0.0635) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value 15A (at 7.0485 -0.5715 90) (layer F.SilkS)
-    (effects (font (size 0.8 0.8) (thickness 0.12)))
+  (fp_text value 10A (at 7.112 -0.254 90) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
   (fp_line (start -4.865 -2.515) (end -4.865 2.515) (layer F.SilkS) (width 0.1))
   (fp_line (start 4.865 -2.515) (end 4.865 2.5) (layer F.SilkS) (width 0.1))
