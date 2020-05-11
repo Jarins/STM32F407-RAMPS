@@ -24,7 +24,7 @@ Features of the RAMPS board:
     - 5V up to 3A in total for all outputs
     - 12V up to 3A in total for all outputs
     - VIN(*24V*) up to 20A each individually (*limited by the used connector and the width of the cooper on the PCB*)
-  + 2 PWM Servos outputs - powered is optionally 3.3V or 5V(_ _in the future it will probably be canceled, because 3.3v is formed by a linear stabilizer AMS111 directly on the CPU board and the consumption of 2 servos can cause considerable overheating of the component_ _)
+  + 2 PWM Servos outputs - powered is optionally 3.3V or 5V(*in the future it will probably be canceled, because 3.3v is formed by a linear stabilizer AMS111 directly on the CPU board and the consumption of 2 servos can cause considerable overheating of the component*)
   + 6 end stops 
   + micro-sd card support with SDIO for fast file transfer
   + ports - serial, USB, I2C and 2x SPI
