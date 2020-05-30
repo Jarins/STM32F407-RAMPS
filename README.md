@@ -4,7 +4,7 @@
 for example from aliexpress [e.g. here](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200509043338&SearchText=stm32f407Zet6+development+board)
 with pins directly compatible with original TFT display 3.2 inch 320x240 with Touch panel  [e.g. here](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200509115015&origin=y&SearchText=3.2+TFT+for+STM32F407VET6)
 
-## __Work-in-progress. Caution! Not for any use yet__
+## __Work-in-progress.__
 
 
 The project is just starting. Other files will follow.
