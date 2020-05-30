@@ -467,9 +467,9 @@ U 1 1 5C50912F
 P 1450 9850
 F 0 "C5" H 1450 9750 50  0000 L CNN
 F 1 "100uF" H 1200 9700 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 1450 9850 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.8" H 1450 9850 50  0001 C CNN
 F 3 "~" H 1450 9850 50  0001 C CNN
-F 4 "6.3x7.7" H 1450 9600 31  0000 C CNN "PCB"
+F 4 "6.3x5.8" H 1450 9600 31  0000 C CNN "PCB"
 	1    1450 9850
 	-1   0    0    -1  
 $EndComp
@@ -865,9 +865,9 @@ U 1 1 5EC05B61
 P 1450 10850
 F 0 "C15" H 1450 10750 50  0000 L CNN
 F 1 "100uF" H 1200 10700 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 1450 10850 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.8" H 1450 10850 50  0001 C CNN
 F 3 "~" H 1450 10850 50  0001 C CNN
-F 4 "6.3x7.7" H 1450 10600 31  0000 C CNN "PCB"
+F 4 "6.3x5.8" H 1450 10600 31  0000 C CNN "PCB"
 	1    1450 10850
 	-1   0    0    -1  
 $EndComp
@@ -2505,7 +2505,7 @@ Text Label 1200 3700 0    50   ~ 0
 SDIO_CMD
 Text Label 6150 2000 2    50   ~ 0
 E1_STEP
-Text Label 6150 2600 2    50   ~ 0
+Text Label 5950 5800 2    50   ~ 0
 E1_EN
 Text Label 4250 2700 0    50   ~ 0
 Z_EN
@@ -2523,8 +2523,6 @@ Text Label 3100 2800 2    50   ~ 0
 SERVO0
 Text Label 4250 3000 0    50   ~ 0
 Z_MAX
-Wire Wire Line
-	5750 2600 6150 2600
 Wire Wire Line
 	6150 2700 5750 2700
 Wire Wire Line
@@ -2790,7 +2788,6 @@ Wire Wire Line
 Wire Wire Line
 	3400 5400 3400 5700
 NoConn ~ 3600 5700
-NoConn ~ 3500 5700
 NoConn ~ 3200 6700
 NoConn ~ 3200 5700
 NoConn ~ 3400 6700
@@ -2964,7 +2961,6 @@ NoConn ~ 4650 2200
 NoConn ~ 4650 2300
 NoConn ~ 4650 2400
 NoConn ~ 4650 2900
-NoConn ~ 5750 2800
 NoConn ~ 5750 4300
 NoConn ~ 2700 2000
 NoConn ~ 2700 2100
@@ -3325,4 +3321,147 @@ F 3 "https://www.onsemi.com/pub/Collateral/MBR130LSFT1-D.PDF" H 3000 1700 50  00
 	1    0    0    -1  
 $EndComp
 Connection ~ 2850 1700
+$Comp
+L Connector_Generic:Conn_01x03 J57
+U 1 1 5ED52330
+P 5350 5800
+F 0 "J57" H 5300 5600 50  0000 C CNN
+F 1 "LCD RS Select" H 4850 5600 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5350 5800 50  0001 C CNN
+F 3 "~" H 5350 5800 50  0001 C CNN
+	1    5350 5800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J55
+U 1 1 5ED53952
+P 5350 5500
+F 0 "J55" H 5150 5300 50  0000 R CNN
+F 1 "LCD RS Select" H 5100 5450 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5350 5500 50  0001 C CNN
+F 3 "~" H 5350 5500 50  0001 C CNN
+	1    5350 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5550 5800 5950 5800
+Wire Wire Line
+	5750 2800 6300 2800
+Text Notes 4250 5150 0    50   ~ 0
+1,2 OFF 1,2 ON Select A6 to LCD_RD, E1_EN to PG0
+Text Notes 4250 5250 0    50   ~ 0
+1,2 + 2,3 ON Select A10 to LCD_RD, E1_EN to PF12
+Wire Wire Line
+	5750 2600 6500 2600
+Wire Wire Line
+	5550 5400 6500 5400
+Wire Wire Line
+	6300 5900 5550 5900
+Wire Wire Line
+	6500 5700 5550 5700
+Wire Wire Line
+	5550 5500 5550 5600
+Wire Wire Line
+	5550 5600 3500 5600
+Wire Notes Line width 20 style solid
+	3795 5190 3795 5240
+Wire Notes Line width 20 style solid
+	3695 5190 3695 5240
+Wire Notes Line width 20 style solid
+	3705 5210 3790 5210
+Wire Notes Line width 20 style solid
+	3705 5220 3785 5220
+Wire Notes Line style solid
+	3670 5165 3870 5165
+Wire Notes Line style solid
+	3870 5265 3670 5265
+Wire Notes Line style solid
+	3670 5165 3670 5265
+Wire Notes Line style solid
+	3870 5165 3870 5265
+Wire Notes Line style solid
+	3920 5165 3920 5265
+Wire Notes Line style solid
+	4220 5165 4220 5265
+Wire Notes Line style solid
+	3920 5165 4220 5165
+Wire Notes Line style solid
+	3920 5265 4220 5265
+Wire Notes Line width 20 style solid
+	3845 5190 3845 5240
+Wire Notes Line
+	3845 5215 3795 5215
+Wire Notes Line width 24 style solid
+	3695 5190 3845 5190
+Wire Notes Line width 20 style solid
+	3845 5225 3800 5225
+Wire Notes Line width 20 style solid
+	3800 5205 3845 5205
+Wire Notes Line width 20 style solid
+	4040 5190 4040 5240
+Wire Notes Line width 20 style solid
+	3940 5190 3940 5240
+Wire Notes Line width 20 style solid
+	3950 5210 4035 5210
+Wire Notes Line width 20 style solid
+	3950 5220 4030 5220
+Wire Notes Line width 20 style solid
+	4090 5190 4090 5240
+Wire Notes Line
+	4090 5215 4040 5215
+Wire Notes Line width 24 style solid
+	3940 5190 4090 5190
+Wire Notes Line width 20 style solid
+	4090 5225 4045 5225
+Wire Notes Line width 20 style solid
+	4045 5205 4090 5205
+Wire Notes Line width 24 style solid
+	3695 5240 3845 5240
+Wire Notes Line width 24 style solid
+	3940 5240 4090 5240
+Wire Notes Line style solid
+	3665 5050 3865 5050
+Wire Notes Line style solid
+	3865 5150 3665 5150
+Wire Notes Line style solid
+	3665 5050 3665 5150
+Wire Notes Line style solid
+	3865 5050 3865 5150
+Wire Notes Line style solid
+	3915 5050 3915 5150
+Wire Notes Line style solid
+	4215 5050 4215 5150
+Wire Notes Line style solid
+	3915 5050 4215 5050
+Wire Notes Line style solid
+	3915 5150 4215 5150
+Wire Notes Line width 20 style solid
+	4140 5075 4140 5125
+Wire Notes Line width 20 style solid
+	4040 5075 4040 5125
+Wire Notes Line width 20 style solid
+	4050 5095 4135 5095
+Wire Notes Line width 20 style solid
+	4050 5105 4130 5105
+Wire Notes Line width 20 style solid
+	4190 5075 4190 5125
+Wire Notes Line
+	4190 5100 4140 5100
+Wire Notes Line width 24 style solid
+	4040 5075 4190 5075
+Wire Notes Line width 20 style solid
+	4190 5110 4145 5110
+Wire Notes Line width 20 style solid
+	4145 5090 4190 5090
+Wire Notes Line width 24 style solid
+	4040 5125 4190 5125
+Wire Wire Line
+	3500 5600 3500 5700
+Wire Wire Line
+	6500 2600 6500 5400
+Connection ~ 6500 5400
+Wire Wire Line
+	6500 5400 6500 5700
+Wire Wire Line
+	6300 2800 6300 5900
 $EndSCHEMATC
