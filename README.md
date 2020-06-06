@@ -15,7 +15,7 @@ Features of the RAMPS board:
 -----
   + up to 5x replaceable stepper motor drivers 
   + up to 4 thermistors or 4 thermocouples for temperature control
-  + 3 power heaters (*1 bed and up to 2 extruder heaters*) with PWM power control up to 50A (*MOSFET params 30A without cooling, llimited by the used connector and the width of the cooper on the PCB see bellow*)
+  + 3 power heaters (*1 bed and up to 2 extruder heaters*) with PWM power control up to 50A (*180A 60V MOSFET params, 30A without cooling, llimited by the used connector and the width of the cooper on the PCB see bellow*)
   + The heaters and motor controllers are guided by a wire width of 2.5 mm on both sides of the PCB = 5 mm = 10 A current when heating the wire by max. 15 ° C
   + replaceable fuse for all three heaters
   + 4 high power PWM connectors with selectable voltage for fans, LEDs or DC motors
