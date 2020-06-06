@@ -26,7 +26,7 @@ Features of the RAMPS board:
   + 6 end stops 
   + micro-sd card support with SDIO for fast file transfer
   + ports - serial, USB, I2C and 2x SPI
-  + FSMC 16bit TFT port with SPI touch for [high resolution graphics display](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200509115015&origin=y&SearchText=3.2+TFT+for+STM32F407VET6)  or RAMPS standard 2 flat cable LCD screen support
+  + FSMC 16bit TFT port with SPI touch for [high resolution graphics display](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200509115015&origin=y&SearchText=3.2+TFT+for+STM32F407VET6)  or RAMPS standard 2 flat cable LCD screen support(128x60 graphics with push-button encoder and SD Card)
   + Input voltage: 12-24V
   + Super low cost (*$0.85/piece*) 2 x DC-DC Buck regulators [Mini DC-DC 4.5-24V To 5V and 12V 3A](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20200509121836&origin=y&SearchText=Mini+DC-DC+12-24V+To+5V+3A+) using  MP2315 chip from MPS, which are absolutely cold during operation even at full load 3A.
   + On the STM32F407 board used 16Mbit(2MB) flash for EEPROM emulation.
